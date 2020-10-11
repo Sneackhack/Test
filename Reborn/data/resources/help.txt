@@ -1,0 +1,12 @@
+Usage:
+    python reborn.py <command> [options]
+
+Commands:
+    send <file path> <addr | username>         Send a file to the destination address
+    recv                            Wait and receive file
+    search [timeout(Second)]                Look for devices waiting to receive
+    help                            Show help
+
+Examples:
+    python reborn.py send ./cmd.exe 192.168.1.111
+    python reborn.py search 20
