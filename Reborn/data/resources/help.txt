@@ -1,5 +1,5 @@
 Usage:
-    python reborn.py <command> [options]
+    python rb.py <command> [options]
 
 Commands:
     send <file path> <addr | username>         Send a file to the destination address
@@ -8,5 +8,5 @@ Commands:
     help                            Show help
 
 Examples:
-    python reborn.py send ./cmd.exe 192.168.1.111
-    python reborn.py search 20
+    python rb.py send ./cmd.exe 192.168.1.111
+    python rb.py search 20
